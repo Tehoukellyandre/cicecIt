@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@keyframes rebond {
+  0% {
+    transform: translateY(0); /* Position de départ */
+  }
+  50% {
+    transform: translateY(-20px); /* À mi-chemin, monter de 20px */
+  }
+  100% {
+    transform: translateY(0); /* Revenir à la position de départ */
+  }
+}
+
+.partner {
+
+  /* 2. Appliquer la séquence 'rebond' à l'élément */
+  animation: 
+    rebond /* Nom de la keyframe */
+    1s     /* Durée de l'animation */
+    ease-in-out /* Type de lissage */
+    infinite;  /* Se répète à l'infini */
+}
