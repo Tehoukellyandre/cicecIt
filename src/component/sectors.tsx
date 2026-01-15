@@ -2,7 +2,7 @@ import { Building2, Users, FileArchive, Phone, Code, Server, FolderDown } from "
 
 export function SectorsSection() {
   return (
-    <section className="py-24 bg-[#f9f0f0cb] from-gray-50 to-white">
+    <section className="pb-14 bg-[#f9f0f0cb] from-gray-50 to-white">
       <div className="max-w-7xl mx-auto px-6">
     
         <div className="text-center mb-16 space-y-3">
@@ -64,7 +64,7 @@ export function SectorsSection() {
               <div className="inline-flex items-center justify-center w-16 h-16 rounded-xl bg-gradient-to-br from-[#EAB308] to-[#f59e0b] mb-4">
                 <Code className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-3xl font-bold text-gray-900">Secteur privé</h3>
+              <h3 className="text-3xl font-bold text-gray-900">Secteur Privé</h3>
             </div>
 
             <div className="space-y-4">

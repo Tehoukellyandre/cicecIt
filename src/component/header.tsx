@@ -52,10 +52,10 @@ export function Header() {
       href: "/solutions-materielles",
       submenu: [
         { label: "Ice Coolant", href: "/solutions-materielles/ice-coolant" },
-        { label: "Ordinateurs et serveurs de dernière génération", href: "/solutions-materielles/ordinateurs" },
+        { label: "Ordinateurs et serveurs ", href: "/solutions-materielles/ordinateurs" },
         { label: "Matériels spécialisés pour GFA", href: "/solutions-materielles/gfa" },
         { label: "Matériels spécialisés pour Call Center", href: "/solutions-materielles/call-center" },
-        { label: "Matériels spécialisés pour Traitement documentaire", href: "/solutions-materielles/documentaire" },
+        { label: "Matériels spécialisés pour GED", href: "/solutions-materielles/documentaire" },
       ],
     },
     {

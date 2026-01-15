@@ -17,7 +17,7 @@ export function Header() {
       submenu: [
       
         { label: "Analyse et conception logicielle", href: "/services-professionnels/developpement" },
-        { label: "Modélisation et automatisation de processus", href: "/services-professionnels/MA" },
+        { label: "Modélisation et automatisation de processus métier", href: "/services-professionnels/MA" },
         { label: "Gestion électronique de documents", href: "/services-professionnels/GED" },
         { label: "Intégration de solutions logicielles", href: "/services-professionnels/IL" },
         {
@@ -47,10 +47,10 @@ export function Header() {
       href: "/solutions-materielles",
       submenu: [
         { label: "Ice Coolant", href: "/solutions-materielles/ice-coolant" },
-        { label: "Ordinateurs et serveurs de dernière génération", href: "/solutions-materielles/ordinateurs" },
+        { label: "Ordinateurs et serveurs ", href: "/solutions-materielles/ordinateurs" },
         { label: "Matériels spécialisés pour GFA", href: "/solutions-materielles/gfa" },
         { label: "Matériels spécialisés pour Call Center", href: "/solutions-materielles/call-center" },
-        { label: "Matériels spécialisés pour Traitement documentaire", href: "/solutions-materielles/documentaire" },
+        { label: "Matériels spécialisés pour GED", href: "/solutions-materielles/documentaire" },
       ],
     },
     {

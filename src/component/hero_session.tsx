@@ -155,7 +155,7 @@ export function HeroSection() {
         <canvas ref={canvasRef} className="absolute inset-0 size-full" />
 {/* <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]" /> */}
 
-      <div className="container relative z-10 mx-auto px-4 py-20 md:py-28">
+      <div className="container relative z-10 mx-auto ">
         <div className="mx-auto max-w-4xl text-center">
           <div className="mb-8 inline-block">
             <div className="relative">
@@ -171,7 +171,7 @@ export function HeroSection() {
             </div>
           </div>
 
-          <div className="flex flex-col items-center gap-4 pt-61">
+          <div className="flex flex-col items-center gap-4 ">
             <p className="text-lg md:text-xl text-gray-500 whitespace-nowrap">
               Carrefour Inter Continental des Échanges Commerciaux
             </p>

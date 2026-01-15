@@ -1,10 +1,10 @@
 
 export function Baniere() {
   return (
-    <section className="relative min-h-[80vh] flex items-center justify-center  px-6 py-20 overflow-hidden">
+    <section className="relative min-h-[80vh] flex items-center justify-center  px-6 py-15 overflow-hidden">
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url(IMG/cicec-vision.jpg)" }}
+        style={{ backgroundImage: "url(IMG/wester2.jpg)" }}
       />
       <div className="absolute inset-0 bg-gradient-to-br from-[#4CAF50]/90 via-[#2d7a3d]/85 to-[#1a5a2a]/90" />
       <div className="relative z-10 max-w-5xl mx-auto text-center">

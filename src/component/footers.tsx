@@ -13,20 +13,20 @@
     ];
   const servicesMateriel = [
       { label: "Ice Coolant", href: "/solutions-materielles/ice-coolant" },
-      { label: "Ordinateurs et serveurs de dernière génération", href: "/solutions-materielles/ordinateurs" },
-      { label: "Matériels spécialisés pour GFA", href: "/solutions-materielles/gfa" },
+      { label: "Matériels spécialisés pour gestion de file d'attente", href: "/solutions-materielles/gfa" },
+      { label: "Ordinateurs et serveurs", href: "/solutions-materielles/ordinateurs" },
       { label: "Matériels spécialisés pour Call Center", href: "/solutions-materielles/call-center" },
-      { label: "Matériels spécialisés pour Traitement documentaire", href: "/solutions-materielles/documentaire" },
+      { label: "Matériels spécialisés pour GED", href: "/solutions-materielles/documentaire" },
     ];
     
   const servicesProfessionnels =  [
         
           { label: "Analyse et conception logicielle", href: "/services-professionnels/developpement" },
-          { label: "Modélisation et automatisation de processus", href: "/services-professionnels/MA" },
+          { label: "Modélisation et automatisation de processus métier", href: "/services-professionnels/MA" },
           { label: "Gestion électronique de documents", href: "/services-professionnels/GED" },
           { label: "Intégration de solutions logicielles", href: "/services-professionnels/IL" },
           {
-          label: "Formations en technologie informatique",
+          label: "Formations en TI",
           // submenu: [
           //     { label: "Formation en développement logiciel", href: "/formation/developpement" },
           //     { label: "Formation en gestion de projets informatiques", href: "/formation/gestion-projets" },
@@ -45,13 +45,13 @@
     return (
       <footer className="bg-gray-900 text-gray-200">
         {/* Main Footer Content */}
-        <div className="container mx-auto px-6 py-12 lg:py-16">
+        <div className="container mx-auto px-6 py-12 lg:py-10">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1fr_2fr_1fr] gap-10 lg:gap-16">
             {/* 1. Company Info & Brand */}
             <div className="lg:col-span-1">
               <div className="mb-6">
                 <h2 className="flex items-center justify-center bg-white rounded-full w-20 h-20 shadow-md">
-                  <img  src="IMG/cicec.png" alt="CICEC AFRIQUE" width={180} height={60} className="h-12 w-auto" />
+                  <img  src="IMG/cicec.png" alt="CICEC AFRIQUE"  className="h-12 w-auto" />
                 </h2>
                 <div className="h-1 w-20 bg-yellow-400 mt-2 rounded-full" />
               </div>
@@ -59,7 +59,7 @@
                 Une compagnie aux capitaux africains créée en 2008 apportant des solutions 
                 innovantes, performantes et adaptées au contexte africain.
               </p>
-              <ul className="flex gap-3 mb-3">
+              <ul className="flex gap-3 pt-23">
                 <li>
                   <div className="flex items-start gap-3 text-gray-400 hover:text-yellow-400 transition-colors group">
                     <span className="text-sm">
@@ -88,11 +88,7 @@
                   </div>
                 </li>
               </ul>
-                
-              <p className="text-gray-500 text-xs">
-                Société à Responsabilité Limitée
-              </p>
-
+            
             </div>
       
             {/* 2. Services */}
@@ -125,17 +121,15 @@
                   {servicesProfessionnels.map((service) => (
                     <li key={service.label}>
                       {/* Élément principal */}
-                      <div className="text-gray-300 text-sm font-medium">
-                        <div className="flex items-center gap-3">
-                        <a
+                      <li key={service.label}>
+                      <a
                         href={service.href}
                         className="text-gray-400 hover:text-yellow-400 transition-colors text-sm flex items-center gap-3 group"
-                        >
+                      >
                         <span className="inline-block h-1 w-2 bg-gray-600 group-hover:bg-yellow-400 transition-colors" />
                         {service.label}
-                        </a>
-                        </div>
-                      </div>
+                      </a>
+                    </li>
 
                       {/* Sous-menu */}
                       {/* {service.submenu && (
@@ -163,14 +157,14 @@
                   <h3 className="text-xl font-bold text-white">
                     Solutions logicielles
                   </h3>
-                  <div className="h-1 w-46 bg-yellow-400 mt-2 mb-4 rounded-full" /> {/* w-full pour s'adapter au titre */}
+                  <div className="h-1 w-20 bg-yellow-400 mt-2 mb-4 rounded-full" /> {/* w-full pour s'adapter au titre */}
                   
                   <div>
                     {/* - flex : met les éléments en ligne
                         - gap-8 : crée de l'espace entre les éléments
                         - justify-center : centre les éléments horizontalement 
                     */}
-                    <ul className="flex flex-wrap justify-center gap-8">
+                    <ul className="flex flex-wrap justify-center mt-3 gap-8">
                       {servicesLogicielle.map((logiciel) => (
                         <li key={logiciel.label}>
                           <a
@@ -195,8 +189,7 @@
             {/* 4. Contact Info */}
             <div>
               <h3 className="text-xl font-bold mb-6 text-white border-l-4 border-yellow-400 pl-4">
-                <span className="block">À Propos de</span>
-                <span className="block">Nous</span>
+                <span className="block">À Propos De Nous</span>
               </h3>
               
               <ul className="space-y-5">
@@ -206,7 +199,7 @@
                     className="flex items-start gap-3 text-gray-400 hover:text-yellow-400 transition-colors group"
                   >
                     <Groups2Icon className="w-5 h-5 flex-shrink-0 text-yellow-400 group-hover:text-white" />
-                    <span className="text-sm">Notre equipe</span>
+                    <span className="text-sm">Notre Équipe</span>
                   </a>
                 </li>
                 <li>
@@ -215,7 +208,7 @@
                     className="flex items-start gap-3 text-gray-400 hover:text-yellow-400 transition-colors group"
                   >
                     <EmojiEventsIcon className="w-5 h-5 flex-shrink-0 text-yellow-400 group-hover:text-white" />
-                    <span className="text-sm">Nos réalisations</span>
+                    <span className="text-sm">Nos Réalisations</span>
                   </a>
                 </li>
                 <li>
@@ -224,12 +217,15 @@
                     className="flex items-start gap-3 text-gray-400 hover:text-yellow-400 transition-colors group"
                   >
                     <HandshakeIcon className="w-5 h-5 flex-shrink-0 text-yellow-400 group-hover:text-white" />
-                    <span className="text-sm">Nos partenaires</span>
+                    <span className="text-sm">Nos Partenaires</span>
                   </a>
                 </li>
-              <h3 className="text-xl font-bold mb-6 text-white  pl-4">
-                Contact
-              </h3>
+              </ul>
+             
+                <h3 className="text-xl font-bold mt-10 mb-6 text-white border-l-4 border-yellow-400 pl-4">
+                  Contact
+                </h3>
+                <ul className="space-y-5">
                 <li>
                   <a
                     href="mailto:contact@cicec-afrique.com"

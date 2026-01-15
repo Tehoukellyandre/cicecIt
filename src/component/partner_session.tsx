@@ -45,11 +45,11 @@ export function  PartnersSection () {
   return (
     <section className="section-padding bg-background">
       <div className="container-custom">
-        <div className="text-center mb-16 space-y-3">
-          <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md  border border-white/20 px-4 py-2 rounded-full shadow-lg transition-all animate-bounce duration-300 hover:scale-[1.02] cursor-default">
+        <div className="text-center pt-10 mb-16 space-y-3">
+          {/* <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md  border border-white/20 px-4 py-2 rounded-full shadow-lg transition-all animate-bounce duration-300 hover:scale-[1.02] cursor-default">
             <Globe className="w-4 h-4" />
             <span className="text-sm font-semibold  tracking-wider">Écosystème</span>
-          </div>
+          </div> */}
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-foreground">
             Nos <span className="text-gradient">Partenaires</span>
           </h2>

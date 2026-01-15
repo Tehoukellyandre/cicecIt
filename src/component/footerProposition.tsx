@@ -28,18 +28,18 @@
             <div className="lg:col-span-1">
               <div className="flex justify-center mb-4">
                 <div>
-                  <h2 className="flex items-center justify-center bg-white rounded-full w-17 h-17 shadow-md">
-                    <img  src="IMG/cicec.png" alt="CICEC AFRIQUE"  className="h-10 w-auto" />
+                  <h2 className="flex items-center justify-center bg-white rounded-full w-20 h-20 shadow-md">
+                    <img  src="IMG/cicec.png" alt="CICEC AFRIQUE"  className="h-12 w-auto" />
                   </h2>
                   <div className="h-1 w-20 bg-yellow-400 mt-2 rounded-full" />
                 </div>
                 
               </div>
-              <p className="text-gray-400 text-sm   leading-relaxed mb-6">
+              <p className="text-gray-400 text-sm text-center leading-relaxed mb-6">
                 Une compagnie aux capitaux africains créée en 2008 apportant des solutions 
                 innovantes, performantes et adaptées au contexte africain.
               </p>
-               <ul className="flex gap-3 mb-3">
+               <ul className="flex justify-center gap-3 mt-7">
                 <li>
                   <div className="flex items-start gap-3 text-gray-400 hover:text-yellow-400 transition-colors group">
                     <span className="text-sm">
@@ -48,8 +48,8 @@
                       </a>
                     </span>
                   </div>
-              </li>
-              <li>
+                </li>
+                <li>
                   <div className="flex items-start gap-3 text-gray-400 hover:text-yellow-400 transition-colors group">
                     <span className="text-sm">
                       <a href="https://www.linkedin.com/company/cicec-benin/about/">
@@ -59,15 +59,15 @@
                   </div>
                 </li>
                 <li>
-                  <div className="flex items-start gap-3 text-gray-400 hover:text-yellow-400 transition-colors group">
+                <div className="flex items-start gap-3 text-gray-400 hover:text-yellow-400 transition-colors group">
                     <span className="text-sm">
                       <a href="https://www.linkedin.com/company/cicec-benin/about/">
                        <Twitter className="w-8 h-8 rounded-full border border-yellow p-1 flex-shrink-0 text-yellow-400 group-hover:text-white" />
                       </a>
                     </span>
-                  </div>
+                </div>
                 </li>
-              </ul>
+               </ul>
             </div>
       
             {/* 2. Services */}
@@ -92,7 +92,7 @@
               </ul>
                <a
                 href="/contact"
-                className="lg:block  w-60  mt-4 px-6 py-2.5 bg-gradient-to-r from-[#FDB813] to-[#F59E0B] text-white rounded-lg hover:shadow-lg hover:scale-105 transition-all font-medium text-sm"
+                className="lg:block  w-60  mt-9 px-6 py-2.5 bg-gradient-to-r from-[#FDB813] to-[#F59E0B] text-white rounded-lg hover:shadow-lg hover:scale-105 transition-all font-medium text-sm"
                 >
                 Faire une demande de service
                 </a>
@@ -117,7 +117,7 @@
                     className="flex items-start gap-3 text-gray-400 hover:text-yellow-400 transition-colors group"
                   >
                     <Groups2Icon className="w-5 h-5 flex-shrink-0 text-yellow-400 group-hover:text-white" />
-                    <span className="text-sm">Notre equipe</span>
+                    <span className="text-sm">Notre Équipe</span>
                   </a>
                 </li>
                 <li>
@@ -126,7 +126,7 @@
                     className="flex items-start gap-3 text-gray-400 hover:text-yellow-400 transition-colors group"
                   >
                     <EmojiEventsIcon className="w-5 h-5 flex-shrink-0 text-yellow-400 group-hover:text-white" />
-                    <span className="text-sm">Nos réalisations</span>
+                    <span className="text-sm">Nos Réalisations</span>
                   </a>
                 </li>
                 <li>
@@ -135,7 +135,7 @@
                     className="flex items-start gap-3 text-gray-400 hover:text-yellow-400 transition-colors group"
                   >
                     <HandshakeIcon className="w-5 h-5 flex-shrink-0 text-yellow-400 group-hover:text-white" />
-                    <span className="text-sm">Nos partenaires</span>
+                    <span className="text-sm">Nos Partenaires</span>
                   </a>
                 </li>
               </ul>
@@ -175,13 +175,15 @@
                 </ul>
                 <a
                 href="/contact"
-                className="lg:block  w-40  mt-4 px-6 py-2.5 bg-gradient-to-r from-[#FDB813] to-[#F59E0B] text-white rounded-lg hover:shadow-lg hover:scale-105 transition-all font-medium text-sm"
+                className="lg:block  w-40  mt-9 px-6 py-2.5 bg-gradient-to-r from-[#FDB813] to-[#F59E0B] text-white rounded-lg hover:shadow-lg hover:scale-105 transition-all font-medium text-sm"
                 >
                 Nous Contacter
                 </a>
             </div>
           </div>
         </div>
+        
+
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-700">
