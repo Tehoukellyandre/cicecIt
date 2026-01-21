@@ -1,5 +1,4 @@
 import './App.css'
-import { HeroSection } from './component/hero_session'
 // import { Header } from './component/header'
 import {  Footer } from './component/footers'
 import { PartnersSection  } from './component/partner_session'

@@ -1,5 +1,5 @@
 import { Button } from "@mui/material";
-import { ExternalLink, Globe } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 
 
 const partners = [

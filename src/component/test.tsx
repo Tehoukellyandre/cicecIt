@@ -1,6 +1,5 @@
 import { useEffect, useRef } from "react";
 import cicec from "../assets/image/cicec.png";
-import Button from "@mui/material/Button";
 
 export function Home() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
