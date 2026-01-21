@@ -5,7 +5,6 @@
   import {
   Briefcase,
   FileCode,
-  Binary ,
   Cpu
 } from "lucide-react"
 

@@ -35,12 +35,12 @@
           // ],
           },
     ];
-    const quickLinks = [
-      { name: "Notre Équipe", url: "#" },
-      { name: "Nos Réalisations", url: "#" },
-      { name: "Nos Partenaires", url: "#" },
+    // const quickLinks = [
+    //   { name: "Notre Équipe", url: "#" },
+    //   { name: "Nos Réalisations", url: "#" },
+    //   { name: "Nos Partenaires", url: "#" },
 
-    ];
+    // ];
 
     return (
       <footer className="bg-gray-900 text-gray-200">
